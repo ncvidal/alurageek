@@ -1,0 +1,10 @@
+.casilla__mensaje{
+    border: none;
+    border-radius: 5px;
+    height: 82px;
+    padding: 1rem 12px;
+    resize: none;
+    outline: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+
+}

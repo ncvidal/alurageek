@@ -1,0 +1,35 @@
+.container__productos{
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 45px;
+    gap: 15px;
+}
+
+.btn__agregar{
+    
+    color: #EAF2FD;
+    background-color:var(--color-borde-btn) ;
+    border: none;
+    display: flex;
+    width: 182px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.admin__comandos{
+    flex-direction: row;
+    display: flex;
+    position: absolute;
+    padding: 10px;
+    margin-left: 100px;
+    gap: 12px;
+}
+
+.eliminar, .editar{
+    gap: 20px;
+}

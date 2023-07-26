@@ -1,0 +1,10 @@
+.btn__texto__entrar{
+    width: 423px;
+    padding: 12px 16px;
+    height: 62px;
+    border:none;
+    background-color:#0B79CE ;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}

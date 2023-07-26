@@ -1,0 +1,6 @@
+.btn__enviar{
+    padding: 16px;
+    background-color:var(--color-borde-btn) ;
+    border:none;
+    color: var(--color-bk-busqueda);
+}

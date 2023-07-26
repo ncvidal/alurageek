@@ -1,0 +1,12 @@
+.footer__form{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap: 8px;
+}
+
+.texto__contacto{
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}

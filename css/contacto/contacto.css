@@ -1,0 +1,19 @@
+.contacto{
+    display: flex;
+    padding: 64px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 115px;
+    align-self: stretch;
+}
+
+footer{
+    background-color: #bad0ed;
+}
+
+.rodapie{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding: 35px;
+}

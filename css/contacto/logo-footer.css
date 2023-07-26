@@ -1,0 +1,7 @@
+.logo__footer{
+    display: flex;
+    width: 176px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}

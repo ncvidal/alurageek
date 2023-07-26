@@ -1,0 +1,7 @@
+.inicio__sesion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 423px;    
+    gap: 8px;
+}

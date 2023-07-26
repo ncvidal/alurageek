@@ -1,0 +1,59 @@
+header{
+    background-color:#fff;
+}
+.head__logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*width: 1136px;*/
+    padding: 32px 0px;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 176px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+
+}
+
+.box__buscador{
+    display: flex;
+    align-items: center;
+    width: 393px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color:var(--color-bk-busqueda);
+    
+}
+.buscador{
+    margin-right: auto;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.login__btn{
+    background: none;
+    border: 1px solid var(--color-borde-btn);
+    color: var(--color-borde-btn);
+
+    display: flex;
+    width: 182px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.link__login__btn{
+    text-decoration: none;
+}
+.login__btn:hover{
+    background-color: #2a7be4;
+    border: none;
+    color: var(--color-bk-busqueda);
+    transition: 0.5s;
+}

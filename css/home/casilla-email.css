@@ -1,0 +1,8 @@
+.casilla__email{
+    border: none;
+    border-radius: 5px;
+    height: 56px;
+    padding: 0 12px;
+    outline: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}

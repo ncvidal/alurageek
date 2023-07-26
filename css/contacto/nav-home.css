@@ -1,0 +1,32 @@
+.head__logo__2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*width: 1136px;*/
+    padding: 32px 0px;
+    margin-left: 10px;
+}
+
+.logo__2{
+    width: 176px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+
+}
+
+.box__buscador__2{
+    display: flex;
+    align-items: center;
+    width: 393px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color:var(--color-bk-busqueda);
+    
+}
+.buscador__2{
+    margin-right: auto;
+    background: none;
+    border: none;
+    outline: none;
+}

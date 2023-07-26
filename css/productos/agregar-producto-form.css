@@ -1,0 +1,8 @@
+.agregar__producto__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 423px;    
+    gap: 15px;
+}

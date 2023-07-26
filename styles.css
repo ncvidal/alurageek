@@ -1,0 +1,17 @@
+:root{
+    --color-borde-btn: #2A7AE4;
+    --color-bk-busqueda: #F5F5F5;
+    --fuente:'Raleway', sans-serif;
+
+}
+
+
+body{
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    
+}
+main{
+    margin: 0;
+    padding: 0;
+}

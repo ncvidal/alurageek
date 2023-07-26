@@ -1,0 +1,14 @@
+.btn__st{
+    border: none;
+    background: none;
+    color:var(--color-borde-btn);
+    font-family: sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    line-height: normal;
+    padding: 0px;
+}
+
+.btn__st:hover{
+    cursor: pointer;
+}

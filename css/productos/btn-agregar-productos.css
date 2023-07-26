@@ -1,0 +1,11 @@
+.btn__agregar__productos{
+    width: 822px;
+    
+    height: 56px;
+    padding: 0 12px;
+    border:none;
+    background-color:#0B79CE ;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/encabezado.css">
+    <link rel="stylesheet" href="./css/banner/banner.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/principal/btn-producto.css">
+    <link rel="stylesheet" href="./css/principal/btn-st.css">
+    <link rel="stylesheet" href="./css/principal/container-st.css">
+    <link rel="stylesheet" href="./css/principal/img-st.css">
+    <link rel="stylesheet" href="./css/principal/link-btn-st.css">
+    <link rel="stylesheet" href="./css/principal/principal.css">
+    <link rel="stylesheet" href="./css/principal/producto-precio.css">
+    <link rel="stylesheet" href="./css/principal/producto-titulo.css">
+    <link rel="stylesheet" href="./css/principal/st-contenido.css">
+    <link rel="stylesheet" href="./css/principal/titulo-productos.css">
+    <link rel="stylesheet" href="./css/principal/titulo.css">
+    <link rel="stylesheet" href="./css/principal/ver-productos.css">
+    <link rel="stylesheet" href="./css/contacto/btn-enviar.css">
+    <link rel="stylesheet" href="./css/contacto/btn-mensaje.css">
+    <link rel="stylesheet" href="./css/contacto/casilla-mensaje.css">
+    <link rel="stylesheet" href="./css/contacto/casilla-nombre.css">
+    <link rel="stylesheet" href="./css/contacto/contacto.css">
+    <link rel="stylesheet" href="./css/contacto/formulario.css">
+    <link rel="stylesheet" href="./css/contacto/link-btn-mensaje.css">
+    <link rel="stylesheet" href="./css/contacto/lista-nav.css">
+    <link rel="stylesheet" href="./css/contacto/nav-contacto.css">
+    <link rel="stylesheet" href="./css/contacto/logo-footer.css">
+
+    <link rel="stylesheet" href="./css/home/btn-entrar.css">
+    <link rel="stylesheet" href="./css/home/btn-texto-entrar.css">
+    <link rel="stylesheet" href="./css/home/casilla-email.css">
+    <link rel="stylesheet" href="./css/home/casilla-password.css">
+    <link rel="stylesheet" href="./css/home/inicio-sesion.css">
+    <link rel="stylesheet" href="./css/home/link-btn-entrar.css">
+    <link rel="stylesheet" href="./css/home/texto-inicio-sesion.css">
+    <link rel="stylesheet" href="./css/home/container-home.css">
+    <link rel="stylesheet" href="./css/contacto/nav-home.css">
+    <link rel="stylesheet" href="./css/productos/container-productos.css">
+    <link rel="stylesheet" href="./css/productos/img-productos.css">
+    <link rel="stylesheet" href="./css/productos/agregar-producto-form.css">
+    <link rel="stylesheet" href="./css/productos/agregar-producto-titulo.css">
+    <link rel="stylesheet" href="./css/productos/agregar-producto.css">
+    <link rel="stylesheet" href="./css/productos/casilla-categoria.css">
+    <link rel="stylesheet" href="./css/productos/casilla-descripcion.css">
+    <link rel="stylesheet" href="./css/productos/casilla-nombre-producto.css">
+    <link rel="stylesheet" href="./css/productos/casilla-precio.css">
+    <link rel="stylesheet" href="./css/productos/casilla-url.css">
+    <link rel="stylesheet" href="./css/productos/btn-agregar-productos.css">
+    <link rel="stylesheet" href="./css/productos/btn-seccion-agregar-productos.css">
+    <link rel="stylesheet" href="./css/productos/link-btn-productos.css">
+
+
+
+
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <div class="head__logo__2">
+                <a href="index.html">
+                    <img src="./img/Logo.png" alt="logo" class="logo__2">
+                </a>
+                <div class="box__buscador__2">
+                    <input type="text" class="buscador__2" placeholder="¿Qué deseas bucar?">
+                    <img src="./img/Icone.svg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- seccion de todos los productos -->
+
+         <!-- <div class="titulo__productos">
+                <h2 class="titulo">Todos los productos</h2>
+
+                <div class="ver__productos">
+                    <a href="#" class="todos__productos">
+                        <button class="btn__agregar" >Agregar producto</button>
+                    </a>
+                </div>
+
+
+            </div> 
+        -->
+
+        <section class="agregar__producto">
+            <form action="" class="agregar__producto__form">
+                <h3 class="agregar__producto__titulo">Agregar nuevo producto</h3>
+
+                <label for="imagen">Selecciona una imagen:</label>
+                <input type="file" id="imagen" name="imagen" accept="image/*">
+
+
+                <input type="text" class="casilla__url" placeholder="URL de imagen" />
+                <input type="text" class="casilla__categoria" placeholder="Categoría" />
+                <input type="text" class="casilla__nombre__producto" placeholder="Nombre del producto"/>
+                <input type="text" class="casilla__precio" placeholder="Precio del producto"/>
+                <input type="text" class="casilla__descripcion" placeholder="Descripción del producto"/>
+
+                <span class="btn__seccion__agregar__productos">
+                    <a href="#" class="link__btn__productos">
+                        <button class="btn__agregar__productos">Agregar producto</button>
+                    </a>
+                </span>
+            </form>
+        </section>
+             
+      
+        
+        
+
+        <!-- seccion de contacto -->
+
+        <footer class="contacto">
+            <img src="./img/Logo.png" alt="" class="logo__footer">
+            <div class="nav__contacto">
+                <ul class="lista__nav">
+                    <li><a href="#">Quienes Somos</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Programa de fidelidad</a></li>
+                    <li><a href="#">Nuestras tiendas</a></li>
+                    <li><a href="#">Quiero ser franquiciado</a></li>
+                    <li><a href="#">Anuncie aquí</a></li>
+                </ul>
+            </div>
+
+            <div class="formulario">
+                <form class="footer__form">
+                    <h4 class="texto__contacto">Hable con nosotros</h4>
+                    <input type="text" class="casilla__nombre" placeholder="Nombre" />
+                    <input type="text" class="casilla__mensaje" placeholder="Escribe tu mensaje" />
+
+                    <span class="btn__mensaje">
+                        <a href="#" class="link__btn__mensaje">
+                            <button class="btn__enviar">Enviar mensaje</button>
+                        </a>
+                    </span>
+                </form>
+
+            </div>
+
+        </footer>
+        <div class="rodapie">
+            <p>Desarrollado por Nelson Castillo | Programador Front-End en formación - 2023</p>
+        </div>
+    </main>
+
+
+
+</body>
+
+</html>

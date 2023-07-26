@@ -1,0 +1,14 @@
+.principal{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 35px;
+    margin: 30px;
+    gap: 10px;
+}
+
+.todos__productos{
+    text-decoration: none;
+}
